@@ -1,0 +1,108 @@
+XML
+21. Создать внешний репозиторий c названием XML.
+
+result: done
+
+22. Клонировать репозиторий XML на локальный компьютер.
+
+command: git clone "https://github.com/doktorgonza21/XML.git"
+
+result: Cloning into 'XML'...
+	warning: You appear to have cloned an empty repository.
+
+
+23. Внутри локального XML создать файл “new.xml”.
+
+command: touch new.xml
+
+result: file new.xml was created
+
+24. Добавить файл под гит.
+
+command: git add new.xml
+
+result: file was added
+
+25. Закоммитить файл.
+
+command: git commit -m "Add new.xml file"
+
+result: [main (root-commit) 619f995] Add new.xml file
+ 	1 file changed, 0 insertions(+), 0 deletions(-)
+ 	create mode 100644 new.xml
+
+26. Отправить файл на внешний GitHub репозиторий.
+
+command: git push
+
+result: Enumerating objects: 3, done.
+	Counting objects: 100% (3/3), done.
+	Writing objects: 100% (3/3), 216 bytes | 216.00 KiB/s, done.
+	Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+	To https://github.com/doktorgonza21/XML.git
+ 	* [new branch]      main -> main
+
+
+27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+ 
+command: nano new.xml
+
+result: info was added
+
+28. Отправить изменения на внешний репозиторий.
+
+command: git add new.xml; git commit -m "Add info to new.xml"; git push
+
+result: file new.xml was updated
+
+29. Создать файл preferences.xml
+
+command: touch preferences.xml
+
+result: file preferences.xml was created
+
+30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+
+command: touch preferences.xml; nano preferences.xml
+
+result: info was added
+
+31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+
+command: touch skills.xml; nano skills.xml
+
+result: info was added
+
+32. Сделать коммит в одну строку.
+
+command: git add *; git commit -m "add skills.xml and preferences.xml"
+
+result: files were added
+
+33. Отправить сразу 2 файла на внешний репозиторий.
+
+command: git push
+
+result: files were pushed
+
+34. На веб интерфейсе создать файл bug_report.xml.
+
+result: done
+
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+result: done
+
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+
+result: done
+
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+result: done
+
+38. Синхронизировать внешний и локальный репозиторий XML
+
+command: git pull
+
+result: file bug_report.xml was added to local rep
