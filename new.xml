@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<bio>	
+		<FirstName>Doktor</FirstName>
+		<LastName>Gonza</LastName>
+		<Age>35</Age>
+		<PetAm>1</PetAm>
+		<FutSalary>100500$</FutSalary>
+	</bio>
